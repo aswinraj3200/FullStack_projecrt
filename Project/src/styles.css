@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Quicksand:wght@600&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  }
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .common-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%; /* Adjusted to a percentage for responsiveness */
+    max-width: 400px; /* Set a maximum width to prevent the form from becoming too wide on larger screens */
+    margin: auto;
+}
+
+.form-input {
+    height: 40px; /* Slightly increased height for better touch interaction on mobile devices */
+    margin-bottom: 20px;
+    border: 1px solid #6a5acd;
+    padding: 0 15px; /* Padding on both sides for better spacing */
+    color: #6a5acd;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.form-button {
+    height: 40px; /* Adjusted height for better touch interaction on mobile devices */
+    border: 1px solid #6a5acd;
+    color: #6a5acd;
+    cursor: pointer;
+    background-color: #fff; /* Added background color for better visibility */
+    transition: background-color 0.3s ease; /* Smooth transition for better user experience */
+}
+
+.form-button:hover {
+    background-color: #6a5acd; /* Change background color on hover */
+    color: #fff; /* Change text color on hover for better contrast */
+}
+
+.error-p {
+    color: red;
+}
+
+.message-p {
+    color: green;
+    text-align: center;
+}
+.max-width{
+  width: 100%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .common-form {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+
+    .form-input,
+    .form-button {
+        width: 100%; /* Make input and button width 100% on smaller screens */
+    }
+}
+
+  .carousel-caption {
+    background-color: #0000007d;
+    border-radius: 10px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  .invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top:-20px
+  }
+  button:disabled{
+    cursor: not-allowed;
+  }
+  .max-width{
+    width: 100%;
+  }

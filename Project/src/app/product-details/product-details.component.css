@@ -1,0 +1,157 @@
+.product-details {
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    height: 500px;
+}
+
+.details {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.details h1 {
+    color: slateblue;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.details h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.details h5 {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+}
+
+.color {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.inside-box {
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.cate,
+.desc {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-1,
+.btn-2 {
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-1 {
+    background: none;
+    color: slateblue;
+    border: 1px solid slateblue;
+}
+
+.btn-2 {
+    background: none;
+    margin-left: 0;
+    color: slateblue;
+    border: 1px solid slateblue;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+    background-color: slateblue;
+    color: white; /* Adjust text color on hover */
+}
+
+.quantity-group {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quantity-group button {
+    padding: 12px;
+    color: slateblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 50px;
+    height: 50px;
+    border: 1px solid slateblue;
+}
+
+.quantity-group button:hover {
+    background-color: slateblue;
+    color: #fff;
+}
+
+.quantity-group input {
+    padding: 12px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 10px;
+    border: 1px solid slateblue;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .product-details {
+        justify-content: center;
+    }
+
+    .product-image,
+    .details {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .color {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .inside-box {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .btn-2 {
+        margin-left: 0;
+    }
+}

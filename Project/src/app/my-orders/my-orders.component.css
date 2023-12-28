@@ -1,0 +1,49 @@
+.my-orders {
+    margin: 20px;
+}
+
+.my-orders h1 {
+    color: slateblue;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.col-sm-2 {
+    flex: 1;
+}
+
+.col-sm-2 img {
+    max-width: 100px    ;
+    height: auto;
+}
+
+.col-sm-2 span {
+    display: block;
+}
+
+.col-sm-2 button {
+
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+/* Optional: Add responsive styles */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-sm-2 {
+        margin-bottom: 10px;
+    }
+}

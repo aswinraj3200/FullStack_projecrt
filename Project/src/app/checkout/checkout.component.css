@@ -1,0 +1,28 @@
+.checkout h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: slateblue;
+}
+.checkout h3{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: slateblue;
+}
+.payment{
+    width: 400px;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 70px;
+}
+#payment-box h4{
+    margin-top: 20px;
+    color: slateblue;
+}
+#payment-box{
+    text-align: center;
+   
+}
